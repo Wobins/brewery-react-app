@@ -9,7 +9,7 @@ const Main = () => {
   
   const [breweries, setBreweries] = useState([])
 
-  // Fetch data from OpenDB API
+  // Fetch data from Open Brewery DB
   const fetchBreweries = async () => {
     const res = await axios.get(baseUrl)
     const data = res.data

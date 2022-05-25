@@ -1,8 +1,8 @@
 const Brewery = ({ brewery }) => {
   return (
     <>
-      <tr>
-        <td>{brewery.name}</td>
+      <tr onDoubleClick={() => console.log(brewery.id)}>
+        <td scope="row">{brewery.name}</td>
         <td>{brewery.city}</td>
         <td>{brewery.state}</td>
         <td>{brewery.brewery_type}</td>

@@ -1,17 +1,15 @@
 import Brewery from "./Brewery"
 
 const Breweries = ({ list }) => {
-
-    console.log(list)
   return (
     <div className="container">
-        <table>
+        <table className="table table-hover">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>City</th>
-                    <th>State</th>
-                    <th>Type</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">City</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Type</th>
                 </tr>
             </thead>
             <tbody>
