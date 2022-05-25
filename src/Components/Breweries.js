@@ -1,6 +1,8 @@
 import Brewery from "./Brewery"
 
 const Breweries = ({ list }) => {
+
+    console.log(list)
   return (
     <div className="container">
         <table>
