@@ -1,12 +1,12 @@
-const Brewery = () => {
+const Brewery = ({ brewery }) => {
   return (
     <>
-        <tr>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-        </tr>
+      <tr>
+        <td>{brewery.name}</td>
+        <td>{brewery.city}</td>
+        <td>{brewery.state}</td>
+        <td>{brewery.brewery_type}</td>
+      </tr>
     </>
   )
 }

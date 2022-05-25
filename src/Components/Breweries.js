@@ -1,8 +1,8 @@
 import Brewery from "./Brewery"
 
-const Breweries = () => {
+const Breweries = ({ list }) => {
   return (
-    <div>
+    <div className="container">
         <table>
             <thead>
                 <tr>
@@ -13,7 +13,9 @@ const Breweries = () => {
                 </tr>
             </thead>
             <tbody>
-                <Brewery />
+                {list.map((brewery) => (
+                    <Brewery key={brewery.id} brewery={brewery} />
+                ))}
             </tbody>
         </table>
     </div>
