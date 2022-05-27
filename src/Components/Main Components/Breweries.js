@@ -1,8 +1,10 @@
-import Brewery from "./Brewery"
+import NumberOfBreweries from "../NumberOfBreweries"
+import Brewery from "./Breweries Components/Brewery"
 
 const Breweries = ({ list }) => {
   return (
     <div className="container">
+        <NumberOfBreweries />
         <table className="table table-hover">
             <thead>
                 <tr>
