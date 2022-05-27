@@ -1,6 +1,6 @@
-import Option from "../Option"
-import axios from "axios"
-import { useState } from "react"
+import Option from "./Breweries Components/Filter Components/Option"
+import ApplyButton from "./Breweries Components/Filter Components/ApplyButton"
+import ClearButton from "./Breweries Components/Filter Components/ClearButton"
 
 const Filter = ({ namesOptions, citiesOptions, statesOptions, typesOptions }) => {
     return (
@@ -44,8 +44,8 @@ const Filter = ({ namesOptions, citiesOptions, statesOptions, typesOptions }) =>
                     </datalist>
                 </div>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-center d-md-block">
-                    <button className="btn btn-success" type="submit">Search breweries</button>
-                    <button className="btn btn-outline-danger" type="button">Clear all filters</button>
+                    <ApplyButton />
+                    <ClearButton />
                 </div>
             </form>
         </div> 

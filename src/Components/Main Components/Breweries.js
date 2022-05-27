@@ -1,4 +1,4 @@
-import NumberOfBreweries from "../NumberOfBreweries"
+import NumberOfBreweries from "./Breweries Components/NumberOfBreweries"
 import Brewery from "./Breweries Components/Brewery"
 
 const Breweries = ({ list }) => {
