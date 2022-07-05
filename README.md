@@ -14,7 +14,7 @@ Coming soon.
 ## How To Run The App Locally
 
 Runs the app in the development mode.\
-`npm run`\
+`npm start`\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
